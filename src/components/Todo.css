@@ -1,0 +1,62 @@
+.todo {
+    display: flex;
+    flex-direction: row;
+}
+
+.check{
+    background-color: #1abc9c;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+    height:3%;
+    margin-left: 20px;
+}
+
+.delete {
+    background-color: #e74c3c;
+    font-weight: bold;
+    color: #F7FAF5;
+    border-radius: 50%;
+    width:25px;
+    height:25px
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.todo-list li {
+    background-color: #f7faf5;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.todo-list li span {
+    width: 90%
+}
+
+.task {
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.deleteButton {
+    width: 5%;
+    margin: 0 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

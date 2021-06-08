@@ -1,0 +1,13 @@
+
+.todo-container {
+    width: 100%;
+}
+
+.todo-container .todo-list {
+    width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+}

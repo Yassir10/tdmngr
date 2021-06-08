@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bgColor);
+    font-size: large;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    /*height: 50vh;*/
+    width: 40vw;
+    margin-top: 100px;
+}
+
+header h1{
+    text-align: center;
+    color: #A6A8D5;
+}
+
+
+:root {
+    --bgColor: #252969;
+    --btnColor: #43BFF0;
+}
